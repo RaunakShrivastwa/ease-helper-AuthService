@@ -14,10 +14,12 @@ export class UserRepository {
   constructor(tableName: string) {
     this.tableName = tableName;
     this.pool = dataBase.getPool(); // ✅ Get pool here
+
+    console.log("table",tableName)
     
   }
 
-   async createTable(): Promise<string> {
+   async createAuthTable(): Promise<string> {
     try {
       const query = ` create table ${this.tableName} (
       id SERIAL PRIMARY KEY,
@@ -29,7 +31,7 @@ export class UserRepository {
         ipAddress VARCHAR(45),
         createdAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
         updatedAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-        FOREIGN KEY (userId) REFERENCES "users"(id) ON DELETE CASCADE
+        FOREIGN KEY (userId) REFERENCES "userinfo"(id) ON DELETE CASCADE
     ); `;
 
       await this.pool.query(query);
@@ -39,10 +41,26 @@ export class UserRepository {
     }
   }
 
-  async createAuth(auth: Auth): Promise<Auth> {
-   // ✅ Get pool here inside the method
-   console.log("table name",this.tableName);
-   
+  async createUserInfoTable(): Promise<string> {
+    try {
+      const query = ` create table ${this.tableName} (
+        id SERIAL PRIMARY KEY,
+        email VARCHAR(100),
+        password VARCHAR(300),
+        role VARCHAR(50),
+        isActive VARCHAR(45) DEFAULT TRUE,
+        createdAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+        updatedAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    ); `;
+
+      await this.pool.query(query);
+      return "UserAuth table created successfully";
+    } catch (err: any) {
+      return `Error creating ${this.tableName} table: ${err.message}`;
+    }
+  }
+
+  async createAuth(auth: any): Promise<Auth> {
 
     const columns: string[] = [];
     const placeholders: string[] = [];
@@ -53,19 +71,17 @@ export class UserRepository {
       placeholders.push(`$${columns.length}`);
       values.push((auth as any)[key]);
     }
-
     const query = `
       INSERT INTO ${this.tableName} (${columns.join(", ")})
       VALUES (${placeholders.join(", ")})
       RETURNING *;
     `;
-
     const result = await this.pool.query(query, values);
     return result.rows[0];
   }
   
  async getAll(): Promise<any[]> {
-  const query = `SELECT * FROM ${this.tableName} AS a INNER JOIN "users" AS u ON a."userid" = u."id";`;
+  const query = `SELECT * FROM ${this.tableName} AS a INNER JOIN "userinfo" AS u ON a."userid" = u."id";`;
 
   const result = await this.pool.query(query);
   return result.rows;
@@ -73,8 +89,10 @@ export class UserRepository {
 
   async findByEmail(email: string,res:Response) {
     try{
-      let user = await axios.get(`${process.env.API_GATEWAY_URL}/user/email/${email}`);
-      return user.data;
+      let query =  `select * from ${this.tableName} where email = $1`;
+      let result = await this.pool.query(query,[email]);
+      console.log(query);
+      return result.rows[0];
     }catch(err){
       return responseError.responseError(res, err);
     }
@@ -82,7 +100,7 @@ export class UserRepository {
 
   async findById(id: number,res:Response): Promise<any[] | Object> {
     try{
-      let query = `SELECT * FROM Auth WHERE userID = $1 AND isRevoked = false`;
+      let query = `SELECT * FROM ${this.tableName} WHERE userID = $1 AND isRevoked = false`;
       let result = await this.pool.query(query, [id]);
       return result.rows;
     }catch(err){
@@ -103,7 +121,7 @@ export class UserRepository {
 
   async revokeSessionById(sessionId: number) {
   const query = `
-    UPDATE Auth
+    UPDATE ${this.tableName}
     SET "isrevoked" = TRUE,
         "updatedat" = NOW()
     WHERE id = $1

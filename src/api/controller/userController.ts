@@ -10,9 +10,28 @@ import { UserRepository } from "../repo/userRepo";
 
 dotenv.config();
 
-const userService = new UserServiceImpl();
+const userService = new UserServiceImpl('userinfo');
+const authUserService = new UserServiceImpl('session');
 
 class userController {
+
+  async createAuthUser(req: Request, res: Response) {
+    try{
+      if(!req.body){
+        return  res.status(400).json({ message: "Bad Request, No Data Provided" });
+      }
+
+      console.log(req.body)
+      req.body.password = await passwordHasing.hashPassword(req.body.password);
+      let newUser = await userService.createAuth(req.body);
+      console.log(newUser);
+      
+      
+      res.status(201).json(newUser)
+    }catch(err){
+      return res.status(500).json({ message: `Internal Server Error ${err}` });
+    }
+  }
 
   async createToken(req: Request, res: Response) {
 
@@ -28,6 +47,8 @@ class userController {
 
     try {
       let user = await userService.findByEmail(req.body.email, res);
+      console.log(user);
+      
       if (!user || !(await passwordHasing.comparePassword(req.body.password, user.password))) {
         return res.status(404).json({ message: "Invalid Email or Password" });
       }
@@ -44,7 +65,10 @@ class userController {
         user.id, await passwordHasing.hashPassword(refreshToken), new Date(Date.now() + 30 * 24 * 60 * 60 * 1000),
         req.headers["user-agent"] || "unknown",
         "clientIp");
-      await userService.createAuth(auth);
+      await authUserService.createAuth(auth);
+
+      console.log(accessToken);
+      
 
       return res.status(200).json({ token: accessToken, refreshToken: refreshToken });
     } catch (err) {
@@ -61,7 +85,7 @@ class userController {
     try {
       let decode = jwtHelper.verifyRefreshToken(refreshToken) as any;
       
-      let sessions = await userService.findById(Number(decode.sub), res);
+      let sessions = await authUserService.findById(Number(decode.sub), res);
       if (!sessions || sessions.length === 0) {
         return res.status(401).json({ message: "Unauthorized, Invalid Session" });
       }
@@ -86,7 +110,7 @@ class userController {
       if (exactSession.isrevoked) {
         return res.status(401).json({ message: "Unauthorized, Session Revoked" });
       }
-      let repo = new UserRepository("Auth");
+      let repo = new UserRepository("session");
       await repo.revokeSessionById(Number(exactSession.id));
 
       console.log(decode);
@@ -103,7 +127,7 @@ class userController {
         decode.sub, await passwordHasing.hashPassword(newRefreshToken), new Date(Date.now() + 30 * 24 * 60 * 60 * 1000),
         req.headers["user-agent"] || "unknown",
         "clientIp");
-      await userService.createAuth(auth);
+      await authUserService.createAuth(auth);
 
       return res.status(200).json({ token: newaccessToken, newrefreshToken: newRefreshToken });
 
@@ -116,7 +140,7 @@ class userController {
 
   async getAll(req: Request, res: Response) {
     try {
-      let authSessions = await userService.getAllAuthSessions();
+      let authSessions = await authUserService.getAllAuthSessions();
       return res.status(200).json({ authSessions });
     } catch (err) {
       return res.status(500).json({ message: `Internal Server Error ${err}` });
@@ -133,7 +157,7 @@ class userController {
     try {
       let decode = jwtHelper.verifyRefreshToken(refreshToken) as any;
       
-      let sessions = await userService.findById(Number(decode.sub), res);
+      let sessions = await authUserService.findById(Number(decode.sub), res);
       if (!sessions || sessions.length === 0) {
         return res.status(401).json({ message: "Unauthorized, Invalid Session" });
       }
@@ -154,7 +178,7 @@ class userController {
       if (exactSession.isrevoked) {
         return res.status(401).json({ message: "Unauthorized, Session Revoked" });
       }
-      let repo = new UserRepository("Auth");
+      let repo = new UserRepository("session");
       await repo.revokeSessionById(Number(exactSession.id));
       return res.status(200).json({ isLogout: true });
 

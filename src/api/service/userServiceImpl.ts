@@ -7,8 +7,8 @@ import { Auth } from "../model/Auth";
 export class UserServiceImpl implements UserService {
   private userRepo: UserRepository;
 
-  constructor() {
-    this.userRepo = new UserRepository("Auth");
+  constructor(tableName: string) {
+    this.userRepo = new UserRepository(tableName);
   }
 
   findAuthByToken(token: string, res: Response): Promise<Auth | null> {
