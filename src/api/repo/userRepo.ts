@@ -14,12 +14,9 @@ export class UserRepository {
   constructor(tableName: string) {
     this.tableName = tableName;
     this.pool = dataBase.getPool(); // ✅ Get pool here
-
-    console.log("table",tableName)
-    
   }
 
-   async createAuthTable(): Promise<string> {
+  async createAuthTable(): Promise<string> {
     try {
       const query = ` create table ${this.tableName} (
       id SERIAL PRIMARY KEY,
@@ -30,9 +27,7 @@ export class UserRepository {
         deviceInfo TEXT,
         ipAddress VARCHAR(45),
         createdAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-        updatedAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-        FOREIGN KEY (userId) REFERENCES "userinfo"(id) ON DELETE CASCADE
-    ); `;
+        updatedAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP); `;
 
       await this.pool.query(query);
       return "Auth table created successfully";
@@ -43,14 +38,14 @@ export class UserRepository {
 
   async createUserInfoTable(): Promise<string> {
     try {
-      const query = ` create table ${this.tableName} (
+      const query = `create table ${this.tableName} (
         id SERIAL PRIMARY KEY,
         email VARCHAR(100),
         password VARCHAR(300),
         role VARCHAR(50),
         isActive VARCHAR(45) DEFAULT TRUE,
         createdAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-        updatedAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+        updatedAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP
     ); `;
 
       await this.pool.query(query);
@@ -79,58 +74,58 @@ export class UserRepository {
     const result = await this.pool.query(query, values);
     return result.rows[0];
   }
-  
- async getAll(): Promise<any[]> {
-  const query = `SELECT * FROM ${this.tableName} AS a INNER JOIN "userinfo" AS u ON a."userid" = u."id";`;
 
-  const result = await this.pool.query(query);
-  return result.rows;
-}
+  async getAll(): Promise<any[]> {
+    const query = `SELECT * FROM ${this.tableName} AS a INNER JOIN "userinfo" AS u ON a."userid" = u."id";`;
 
-  async findByEmail(email: string,res:Response) {
-    try{
-      let query =  `select * from ${this.tableName} where email = $1`;
-      let result = await this.pool.query(query,[email]);
+    const result = await this.pool.query(query);
+    return result.rows;
+  }
+
+  async findByEmail(email: string, res: Response) {
+    try {
+      let query = `select * from ${this.tableName} where email = $1`;
+      let result = await this.pool.query(query, [email]);
       console.log(query);
       return result.rows[0];
-    }catch(err){
+    } catch (err) {
       return responseError.responseError(res, err);
     }
   }
 
-  async findById(id: number,res:Response): Promise<any[] | Object> {
-    try{
+  async findById(id: number, res: Response): Promise<any[] | Object> {
+    try {
       let query = `SELECT * FROM ${this.tableName} WHERE userID = $1 AND isRevoked = false`;
       let result = await this.pool.query(query, [id]);
       return result.rows;
-    }catch(err){
+    } catch (err) {
       return responseError.responseError(res, err);
     }
   }
 
-  findByRefreshToken(refreshToken: string,res:Response){
-    try{
+  findByRefreshToken(refreshToken: string, res: Response) {
+    try {
       let query = `SELECT * FROM Auth WHERE refreshToken = $1`;
       let result = this.pool.query(query, [refreshToken]);
       return result.rows[0];
-    }catch(err){
+    } catch (err) {
       return responseError.responseError(res, err);
     }
 
   }
 
   async revokeSessionById(sessionId: number) {
-  const query = `
+    const query = `
     UPDATE ${this.tableName}
     SET "isrevoked" = TRUE,
         "updatedat" = NOW()
     WHERE id = $1
   `;
 
-  await this.pool.query(query, [sessionId]);
-}
+    await this.pool.query(query, [sessionId]);
+  }
 
 
 
-  
+
 }

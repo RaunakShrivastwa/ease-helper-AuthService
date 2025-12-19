@@ -7,6 +7,7 @@ import crypto from "crypto";
 import { Auth } from "../model/Auth";
 import { jwtDecode } from "jwt-decode";
 import { UserRepository } from "../repo/userRepo";
+import { publishUserAuthCreated } from "../../event/producer";
 
 dotenv.config();
 
@@ -24,8 +25,7 @@ class userController {
       console.log(req.body)
       req.body.password = await passwordHasing.hashPassword(req.body.password);
       let newUser = await userService.createAuth(req.body);
-      console.log(newUser);
-      
+      await publishUserAuthCreated({id:newUser.id,email:newUser.email,role:newUser.role})
       
       res.status(201).json(newUser)
     }catch(err){

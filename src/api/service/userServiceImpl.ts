@@ -15,7 +15,7 @@ export class UserServiceImpl implements UserService {
     return this.userRepo.findByRefreshToken(token,res);
   }
   
-  createAuth(auth: Auth): Promise<Auth> {
+  createAuth(auth: any): Promise<any> {
     return this.userRepo.createAuth(auth);
   }
   
