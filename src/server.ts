@@ -7,6 +7,7 @@ import cookieParser from "cookie-parser";
 import { UserRepository } from './api/repo/userRepo';
 import { connectProducer } from './event/producer';
 import { consuming } from './event/consumer';
+import cors from 'cors';
 
 dotenv.config();
 const app = express();
@@ -15,17 +16,15 @@ let sessionRepo = new UserRepository('session');
 let userRepo = new UserRepository('userinfo');
 
 app.use(express.json());
+app.use(cors({
+  origin: "http://localhost:8000", // 👈 EJS / NotificationService
+  credentials: true,
+}))
+
 app.use(cookieParser());
 app.use('/api/v1/auth', userRouter);
 
-async function initTable(){
-    try{
-         
-    }catch(err){
-        console.log(err);
-        
-    }
-}
+
 
 app.listen(PORT, (err) => {
     if(err){

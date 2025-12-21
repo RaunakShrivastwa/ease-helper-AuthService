@@ -21,7 +21,6 @@ export async function consuming() {
         if (!message.value) return;
         const data = JSON.parse(message.value.toString());
         logger.info(`USER_PROFILE_CREATED successfully ${message.value}`)
-        // 👉 yahin pe future me DB / service call aayega
       } catch (err) {
         logger.error(`there is error with kafka consuming ${err}`);
       }

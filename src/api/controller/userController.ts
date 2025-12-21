@@ -8,6 +8,7 @@ import { Auth } from "../model/Auth";
 import { jwtDecode } from "jwt-decode";
 import { UserRepository } from "../repo/userRepo";
 import { publishUserAuthCreated } from "../../event/producer";
+import AuthUser from "../model/authUser";
 
 dotenv.config();
 
@@ -21,13 +22,11 @@ class userController {
       if(!req.body){
         return  res.status(400).json({ message: "Bad Request, No Data Provided" });
       }
-
-      console.log(req.body)
       req.body.password = await passwordHasing.hashPassword(req.body.password);
-      let newUser = await userService.createAuth(req.body);
-      await publishUserAuthCreated({id:newUser.id,email:newUser.email,role:newUser.role})
-      
-      res.status(201).json(newUser)
+      let authUser = new AuthUser(req.body.email,req.body.role,req.body.password,req.body.location);
+      let newUser = await userService.createAuth(authUser);
+      await publishUserAuthCreated({id:newUser.id,email:newUser.email,role:newUser.role});
+      res.status(201).json(newUser);
     }catch(err){
       return res.status(500).json({ message: `Internal Server Error ${err}` });
     }
@@ -66,11 +65,7 @@ class userController {
         req.headers["user-agent"] || "unknown",
         "clientIp");
       await authUserService.createAuth(auth);
-
-      console.log(accessToken);
-      
-
-      return res.status(200).json({ token: accessToken, refreshToken: refreshToken });
+      return res.status(200).json({ token: accessToken, refreshToken: refreshToken ,user});
     } catch (err) {
       return res.status(500).json({ message: `Internal Server Error ${err}` });
     }

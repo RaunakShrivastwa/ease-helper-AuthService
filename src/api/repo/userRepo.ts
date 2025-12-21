@@ -43,6 +43,7 @@ export class UserRepository {
         email VARCHAR(100),
         password VARCHAR(300),
         role VARCHAR(50),
+        location VARCHAR(200),
         isActive VARCHAR(45) DEFAULT TRUE,
         createdAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
         updatedAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP
@@ -56,7 +57,6 @@ export class UserRepository {
   }
 
   async createAuth(auth: any): Promise<Auth> {
-
     const columns: string[] = [];
     const placeholders: string[] = [];
     const values: any[] = [];
