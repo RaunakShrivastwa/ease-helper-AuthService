@@ -33,7 +33,6 @@ class userController {
   }
 
   async createToken(req: Request, res: Response) {
-
     if (!req.body || !req.body.email || !req.body.password) {
       return res
         .status(400)
@@ -58,8 +57,8 @@ class userController {
         tv: crypto.randomUUID(),
       };
 
-      const accessToken = jwtHelper.signAccessToken(payload);
-      let refreshToken = jwtHelper.signRefreshToken(payload);
+      const accessToken = await jwtHelper.signAccessToken(payload);
+      let refreshToken =  await jwtHelper.signRefreshToken(payload);
       let auth: Auth = new Auth(
         user.id, await passwordHasing.hashPassword(refreshToken), new Date(Date.now() + 30 * 24 * 60 * 60 * 1000),
         req.headers["user-agent"] || "unknown",
@@ -73,14 +72,19 @@ class userController {
 
   async refreshToken(req: Request, res: Response) {
     let refreshToken = req.cookies.refreshToken;
+    console.log("refres",refreshToken);
+    
     if (!refreshToken) {
       return res.status(401).json({ message: "Unauthorized, No Refresh Token" });
     }
 
     try {
-      let decode = jwtHelper.verifyRefreshToken(refreshToken) as any;
+      let decode = await jwtHelper.verifyRefreshToken(refreshToken) as any;
+      console.log("decode",decode);
       
       let sessions = await authUserService.findById(Number(decode.sub), res);
+      console.log("session",sessions);
+      
       if (!sessions || sessions.length === 0) {
         return res.status(401).json({ message: "Unauthorized, Invalid Session" });
       }
@@ -94,9 +98,6 @@ class userController {
         }
       }
 
-      console.log("found session",exactSession);
-      
-
       if (!exactSession) {
         return res.status(401).json({ message: "Unauthorized, Invalid Session" });
       }
@@ -107,24 +108,21 @@ class userController {
       }
       let repo = new UserRepository("session");
       await repo.revokeSessionById(Number(exactSession.id));
-
-      console.log(decode);
-
       const payload = {
         sub: decode.sub,
         role: decode.role,
         tv: crypto.randomUUID(),
       };
 
-      const newaccessToken = jwtHelper.signAccessToken(payload);
-      let newRefreshToken = jwtHelper.signRefreshToken(payload);
+      const newaccessToken = await jwtHelper.signAccessToken(payload);
+      let newRefreshToken = await jwtHelper.signRefreshToken(payload);
       let auth: Auth = new Auth(
         decode.sub, await passwordHasing.hashPassword(newRefreshToken), new Date(Date.now() + 30 * 24 * 60 * 60 * 1000),
         req.headers["user-agent"] || "unknown",
         "clientIp");
       await authUserService.createAuth(auth);
 
-      return res.status(200).json({ token: newaccessToken, newrefreshToken: newRefreshToken });
+      return res.status(200).json({ token: newaccessToken, newrefreshToken: newRefreshToken,isRefresh:true });
 
     } catch (err) {
       return res.status(500).json({ message: `Internal Server Error ${err}` });
@@ -150,7 +148,7 @@ class userController {
     }
 
     try {
-      let decode = jwtHelper.verifyRefreshToken(refreshToken) as any;
+      let decode = await jwtHelper.verifyRefreshToken(refreshToken) as any;
       
       let sessions = await authUserService.findById(Number(decode.sub), res);
       if (!sessions || sessions.length === 0) {
