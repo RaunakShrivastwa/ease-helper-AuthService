@@ -37,5 +37,9 @@ export class UserServiceImpl implements UserService {
     return this.userRepo.findById(id, res); 
   }
 
+  deleteUserInfo(id:number):Promise<boolean>{
+    return this.userRepo.deleteUser(id);
+  }
+
   
 }

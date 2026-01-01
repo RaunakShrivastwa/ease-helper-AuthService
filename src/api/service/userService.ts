@@ -10,5 +10,6 @@ export interface UserService {
   getAllAuthSessions(): Promise<Auth[]>;
   findById(id: number,res:Response): Promise<any[] | null>;
   findAuthByToken(token: string,res:Response): Promise<Auth | null>;
+  deleteUserInfo(id:number):Promise<boolean>
   
 }

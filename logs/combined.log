@@ -5911,3 +5911,702 @@
 [2025-12-21 21:49:23] [32minfo[39m: USER_PROFILE_CREATED successfully {"id":8,"name":null,"email":"codingsstudio@gmail.com","address":null,"phone":null,"role":"USER","status":"ACTIVE","createdat":"2025-12-21T10:49:23.819Z","updatedat":"2025-12-21T10:49:23.819Z"}
 [2025-12-21 21:49:51] [32minfo[39m: USER_PROFILE_CREATED successfully {"id":9,"name":null,"email":"abhijeetkumar2532002@gmail.com","address":null,"phone":null,"role":"PROVIDER","status":"ACTIVE","createdat":"2025-12-21T10:49:51.082Z","updatedat":"2025-12-21T10:49:51.082Z"}
 [2025-12-21 21:50:30] [32minfo[39m: USER_PROFILE_CREATED successfully {"id":10,"name":null,"email":"kumarraunak4201@gmail.com","address":null,"phone":null,"role":"PROVIDER","status":"ACTIVE","createdat":"2025-12-21T10:50:30.123Z","updatedat":"2025-12-21T10:50:30.123Z"}
+[2025-12-26 20:38:54] [32minfo[39m: Database connected successfully
+[2025-12-26 20:38:54] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-26 20:38:54] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-26 20:38:54] [32minfo[39m: kafka connected
+[2025-12-26 20:38:54] [32minfo[39m: User Service Kafka Consumer connected
+[2025-12-26 20:39:20] [32minfo[39m: Auth Service is running on port 6060
+[2025-12-26 20:39:34] [32minfo[39m: Database connected successfully
+[2025-12-26 20:39:34] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-26 20:39:34] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-26 20:39:34] [32minfo[39m: kafka connected
+[2025-12-26 20:39:34] [32minfo[39m: User Service Kafka Consumer connected
+[2025-12-26 20:39:36] [32minfo[39m: Database connected successfully
+[2025-12-26 20:39:36] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-26 20:39:36] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-26 20:39:36] [32minfo[39m: kafka connected
+[2025-12-26 20:39:36] [32minfo[39m: User Service Kafka Consumer connected
+[2025-12-26 20:40:07] [32minfo[39m: Database connected successfully
+[2025-12-26 20:40:07] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-26 20:40:07] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-26 20:40:07] [32minfo[39m: kafka connected
+[2025-12-26 20:40:07] [32minfo[39m: User Service Kafka Consumer connected
+[2025-12-26 20:40:37] [32minfo[39m: Auth Service is running on port 6060
+[2025-12-26 20:40:40] [32minfo[39m: Database connected successfully
+[2025-12-26 20:40:40] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-26 20:40:40] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-26 20:40:40] [32minfo[39m: kafka connected
+[2025-12-26 20:40:40] [32minfo[39m: User Service Kafka Consumer connected
+[2025-12-26 20:40:43] [32minfo[39m: Database connected successfully
+[2025-12-26 20:40:43] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-26 20:40:43] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-26 20:40:43] [32minfo[39m: kafka connected
+[2025-12-26 20:40:43] [32minfo[39m: User Service Kafka Consumer connected
+[2025-12-26 20:41:05] [32minfo[39m: Database connected successfully
+[2025-12-26 20:41:05] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-26 20:41:05] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-26 20:41:05] [32minfo[39m: kafka connected
+[2025-12-26 20:41:05] [32minfo[39m: User Service Kafka Consumer connected
+[2025-12-26 20:41:07] [32minfo[39m: Auth Service is running on port 6060
+[2025-12-26 20:41:13] [32minfo[39m: Database connected successfully
+[2025-12-26 20:41:13] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-26 20:41:13] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-26 20:41:13] [32minfo[39m: kafka connected
+[2025-12-26 20:41:13] [32minfo[39m: User Service Kafka Consumer connected
+[2025-12-26 20:41:28] [32minfo[39m: Database connected successfully
+[2025-12-26 20:41:28] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-26 20:41:28] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-26 20:41:28] [32minfo[39m: kafka connected
+[2025-12-26 20:41:28] [32minfo[39m: User Service Kafka Consumer connected
+[2025-12-26 20:41:42] [32minfo[39m: Auth Service is running on port 6060
+[2025-12-28 21:49:22] [32minfo[39m: Database connected successfully
+[2025-12-28 21:49:22] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-28 21:49:22] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-28 21:49:22] [32minfo[39m: kafka connected
+[2025-12-28 21:49:22] [32minfo[39m: User Service Kafka Consumer connected
+[2025-12-28 21:49:22] [32minfo[39m: Auth Service is running on port 6060
+[2025-12-28 23:07:02] [32minfo[39m: Database connected successfully
+[2025-12-28 23:07:02] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-28 23:07:02] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-28 23:07:02] [32minfo[39m: kafka connected
+[2025-12-28 23:07:03] [32minfo[39m: User Service Kafka Consumer connected
+[2025-12-28 23:07:20] [32minfo[39m: Database connected successfully
+[2025-12-28 23:07:20] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-28 23:07:20] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-28 23:07:20] [32minfo[39m: kafka connected
+[2025-12-28 23:07:20] [32minfo[39m: User Service Kafka Consumer connected
+[2025-12-28 23:07:59] [32minfo[39m: Auth Service is running on port 6060
+[2025-12-28 23:20:24] [32minfo[39m: Database connected successfully
+[2025-12-28 23:20:24] [32minfo[39m: Auth table created successfully
+[2025-12-28 23:20:24] [32minfo[39m: UserAuth table created successfully
+[2025-12-28 23:20:24] [32minfo[39m: kafka connected
+[2025-12-28 23:20:24] [32minfo[39m: User Service Kafka Consumer connected
+[2025-12-28 23:20:45] [32minfo[39m: Auth Service is running on port 6060
+[2025-12-28 23:20:45] [32minfo[39m: USER_PROFILE_CREATED successfully {"id":1,"name":null,"email":"codecprogramming@gmail.com","address":null,"phone":null,"role":"PROVIDER","description":null,"status":"ACTIVE","createdat":"2025-12-28T12:20:43.665Z","updatedat":"2025-12-28T12:20:43.665Z"}
+[2025-12-28 23:36:03] [32minfo[39m: USER_PROFILE_CREATED successfully {"id":3,"name":null,"email":"codingsstudio@gmail.com","address":null,"phone":null,"role":"PROVIDER","description":null,"status":"ACTIVE","createdat":"2025-12-28T12:36:03.175Z","updatedat":"2025-12-28T12:36:03.175Z"}
+[2025-12-28 23:39:22] [32minfo[39m: Database connected successfully
+[2025-12-28 23:39:22] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-28 23:39:22] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-28 23:39:22] [32minfo[39m: kafka connected
+[2025-12-28 23:39:22] [32minfo[39m: User Service Kafka Consumer connected
+[2025-12-28 23:39:24] [32minfo[39m: Database connected successfully
+[2025-12-28 23:39:24] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-28 23:39:24] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-28 23:39:24] [32minfo[39m: kafka connected
+[2025-12-28 23:39:24] [32minfo[39m: User Service Kafka Consumer connected
+[2025-12-28 23:39:45] [32minfo[39m: Database connected successfully
+[2025-12-28 23:39:45] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-28 23:39:45] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-28 23:39:45] [32minfo[39m: kafka connected
+[2025-12-28 23:39:45] [32minfo[39m: User Service Kafka Consumer connected
+[2025-12-28 23:39:48] [32minfo[39m: Auth Service is running on port 6060
+[2025-12-28 23:46:23] [32minfo[39m: Database connected successfully
+[2025-12-28 23:46:23] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-28 23:46:23] [32minfo[39m: UserAuth table created successfully
+[2025-12-28 23:46:23] [32minfo[39m: kafka connected
+[2025-12-28 23:46:23] [32minfo[39m: User Service Kafka Consumer connected
+[2025-12-28 23:46:49] [32minfo[39m: Auth Service is running on port 6060
+[2025-12-28 23:47:05] [32minfo[39m: USER_PROFILE_CREATED successfully {"id":1,"name":null,"email":"codingsstudio@gmail.com","address":null,"location":"Bihar","avtar":null,"phone":null,"role":"PROVIDER","description":null,"status":"ACTIVE","createdat":"2025-12-28T12:47:05.089Z","updatedat":"2025-12-28T12:47:05.089Z"}
+[2025-12-29 00:26:14] [32minfo[39m: USER_PROFILE_CREATED successfully {"id":2,"name":null,"email":"codecprogramming@gmail.com","address":null,"location":"Bihar","avtar":null,"phone":null,"role":"PROVIDER","description":null,"status":"ACTIVE","createdat":"2025-12-28T13:26:14.817Z","updatedat":"2025-12-28T13:26:14.817Z"}
+[2025-12-29 00:26:34] [32minfo[39m: USER_PROFILE_CREATED successfully {"id":3,"name":null,"email":"abhijeet@gmail.com","address":null,"location":"Bihar","avtar":null,"phone":null,"role":"ADMIN","description":null,"status":"ACTIVE","createdat":"2025-12-28T13:26:34.729Z","updatedat":"2025-12-28T13:26:34.729Z"}
+[2025-12-29 00:36:06] [32minfo[39m: Database connected successfully
+[2025-12-29 00:36:06] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-29 00:36:06] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-29 00:36:06] [32minfo[39m: kafka connected
+[2025-12-29 00:36:06] [32minfo[39m: User Service Kafka Consumer connected
+[2025-12-29 00:36:19] [32minfo[39m: Database connected successfully
+[2025-12-29 00:36:19] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-29 00:36:19] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-29 00:36:19] [32minfo[39m: kafka connected
+[2025-12-29 00:36:19] [32minfo[39m: User Service Kafka Consumer connected
+[2025-12-29 00:36:20] [32minfo[39m: Database connected successfully
+[2025-12-29 00:36:20] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-29 00:36:20] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-29 00:36:20] [32minfo[39m: kafka connected
+[2025-12-29 00:36:20] [32minfo[39m: User Service Kafka Consumer connected
+[2025-12-29 00:36:23] [32minfo[39m: Database connected successfully
+[2025-12-29 00:36:23] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-29 00:36:23] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-29 00:36:23] [32minfo[39m: kafka connected
+[2025-12-29 00:36:23] [32minfo[39m: User Service Kafka Consumer connected
+[2025-12-29 00:36:27] [32minfo[39m: Database connected successfully
+[2025-12-29 00:36:27] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-29 00:36:27] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-29 00:36:27] [32minfo[39m: kafka connected
+[2025-12-29 00:36:27] [32minfo[39m: User Service Kafka Consumer connected
+[2025-12-29 00:36:30] [32minfo[39m: Database connected successfully
+[2025-12-29 00:36:30] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-29 00:36:30] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-29 00:36:30] [32minfo[39m: kafka connected
+[2025-12-29 00:36:30] [32minfo[39m: User Service Kafka Consumer connected
+[2025-12-29 00:36:32] [32minfo[39m: Database connected successfully
+[2025-12-29 00:36:32] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-29 00:36:32] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-29 00:36:32] [32minfo[39m: kafka connected
+[2025-12-29 00:36:32] [32minfo[39m: User Service Kafka Consumer connected
+[2025-12-29 00:36:52] [32minfo[39m: Database connected successfully
+[2025-12-29 00:36:52] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-29 00:36:52] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-29 00:36:52] [32minfo[39m: kafka connected
+[2025-12-29 00:36:52] [32minfo[39m: User Service Kafka Consumer connected
+[2025-12-29 00:36:59] [32minfo[39m: Database connected successfully
+[2025-12-29 00:36:59] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-29 00:36:59] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-29 00:36:59] [32minfo[39m: kafka connected
+[2025-12-29 00:36:59] [32minfo[39m: User Service Kafka Consumer connected
+[2025-12-29 00:37:20] [32minfo[39m: Database connected successfully
+[2025-12-29 00:37:20] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-29 00:37:20] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-29 00:37:20] [32minfo[39m: kafka connected
+[2025-12-29 00:37:20] [32minfo[39m: User Service Kafka Consumer connected
+[2025-12-29 00:37:22] [32minfo[39m: Auth Service is running on port 6060
+[2025-12-29 00:37:25] [32minfo[39m: Database connected successfully
+[2025-12-29 00:37:25] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-29 00:37:25] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-29 00:37:25] [32minfo[39m: kafka connected
+[2025-12-29 00:37:25] [32minfo[39m: User Service Kafka Consumer connected
+[2025-12-29 00:37:28] [32minfo[39m: Database connected successfully
+[2025-12-29 00:37:28] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-29 00:37:28] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-29 00:37:28] [32minfo[39m: kafka connected
+[2025-12-29 00:37:28] [32minfo[39m: User Service Kafka Consumer connected
+[2025-12-29 00:37:34] [32minfo[39m: Database connected successfully
+[2025-12-29 00:37:34] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-29 00:37:34] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-29 00:37:34] [32minfo[39m: kafka connected
+[2025-12-29 00:37:34] [32minfo[39m: User Service Kafka Consumer connected
+[2025-12-29 00:37:37] [32minfo[39m: Database connected successfully
+[2025-12-29 00:37:37] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-29 00:37:37] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-29 00:37:37] [32minfo[39m: kafka connected
+[2025-12-29 00:37:37] [32minfo[39m: User Service Kafka Consumer connected
+[2025-12-29 00:37:39] [32minfo[39m: Database connected successfully
+[2025-12-29 00:37:39] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-29 00:37:39] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-29 00:37:39] [32minfo[39m: kafka connected
+[2025-12-29 00:37:39] [32minfo[39m: User Service Kafka Consumer connected
+[2025-12-29 00:37:40] [32minfo[39m: Database connected successfully
+[2025-12-29 00:37:40] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-29 00:37:40] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-29 00:37:40] [32minfo[39m: kafka connected
+[2025-12-29 00:37:40] [32minfo[39m: User Service Kafka Consumer connected
+[2025-12-29 00:37:41] [32minfo[39m: Database connected successfully
+[2025-12-29 00:37:41] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-29 00:37:41] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-29 00:37:41] [32minfo[39m: kafka connected
+[2025-12-29 00:37:41] [32minfo[39m: User Service Kafka Consumer connected
+[2025-12-29 00:37:47] [32minfo[39m: Database connected successfully
+[2025-12-29 00:37:47] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-29 00:37:47] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-29 00:37:47] [32minfo[39m: kafka connected
+[2025-12-29 00:37:47] [32minfo[39m: User Service Kafka Consumer connected
+[2025-12-29 00:37:59] [32minfo[39m: Database connected successfully
+[2025-12-29 00:37:59] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-29 00:37:59] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-29 00:37:59] [32minfo[39m: kafka connected
+[2025-12-29 00:37:59] [32minfo[39m: User Service Kafka Consumer connected
+[2025-12-29 00:38:01] [32minfo[39m: Database connected successfully
+[2025-12-29 00:38:01] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-29 00:38:01] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-29 00:38:01] [32minfo[39m: kafka connected
+[2025-12-29 00:38:01] [32minfo[39m: User Service Kafka Consumer connected
+[2025-12-29 00:38:05] [32minfo[39m: Database connected successfully
+[2025-12-29 00:38:05] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-29 00:38:05] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-29 00:38:05] [32minfo[39m: kafka connected
+[2025-12-29 00:38:05] [32minfo[39m: User Service Kafka Consumer connected
+[2025-12-29 00:38:08] [32minfo[39m: Database connected successfully
+[2025-12-29 00:38:08] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-29 00:38:08] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-29 00:38:08] [32minfo[39m: kafka connected
+[2025-12-29 00:38:08] [32minfo[39m: User Service Kafka Consumer connected
+[2025-12-29 00:38:31] [32minfo[39m: Database connected successfully
+[2025-12-29 00:38:31] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-29 00:38:31] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-29 00:38:31] [32minfo[39m: kafka connected
+[2025-12-29 00:38:31] [32minfo[39m: User Service Kafka Consumer connected
+[2025-12-29 00:39:02] [32minfo[39m: Database connected successfully
+[2025-12-29 00:39:02] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-29 00:39:02] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-29 00:39:02] [32minfo[39m: kafka connected
+[2025-12-29 00:39:02] [32minfo[39m: User Service Kafka Consumer connected
+[2025-12-29 00:39:23] [32minfo[39m: Database connected successfully
+[2025-12-29 00:39:23] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-29 00:39:23] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-29 00:39:23] [32minfo[39m: kafka connected
+[2025-12-29 00:39:23] [32minfo[39m: User Service Kafka Consumer connected
+[2025-12-29 00:40:01] [32minfo[39m: Auth Service is running on port 6060
+[2025-12-29 00:40:16] [32minfo[39m: Database connected successfully
+[2025-12-29 00:40:16] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-29 00:40:16] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-29 00:40:16] [32minfo[39m: kafka connected
+[2025-12-29 00:40:16] [32minfo[39m: User Service Kafka Consumer connected
+[2025-12-29 00:40:19] [32minfo[39m: Database connected successfully
+[2025-12-29 00:40:19] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-29 00:40:19] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-29 00:40:19] [32minfo[39m: kafka connected
+[2025-12-29 00:40:19] [32minfo[39m: User Service Kafka Consumer connected
+[2025-12-29 00:40:21] [32minfo[39m: Database connected successfully
+[2025-12-29 00:40:21] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-29 00:40:21] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-29 00:40:21] [32minfo[39m: kafka connected
+[2025-12-29 00:40:21] [32minfo[39m: User Service Kafka Consumer connected
+[2025-12-29 00:40:42] [32minfo[39m: Auth Service is running on port 6060
+[2025-12-29 00:41:59] [32minfo[39m: Database connected successfully
+[2025-12-29 00:41:59] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-29 00:41:59] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-29 00:41:59] [32minfo[39m: kafka connected
+[2025-12-29 00:41:59] [32minfo[39m: User Service Kafka Consumer connected
+[2025-12-29 00:42:07] [32minfo[39m: Database connected successfully
+[2025-12-29 00:42:07] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-29 00:42:07] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-29 00:42:07] [32minfo[39m: kafka connected
+[2025-12-29 00:42:07] [32minfo[39m: User Service Kafka Consumer connected
+[2025-12-29 00:42:09] [32minfo[39m: Database connected successfully
+[2025-12-29 00:42:09] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-29 00:42:09] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-29 00:42:09] [32minfo[39m: kafka connected
+[2025-12-29 00:42:09] [32minfo[39m: User Service Kafka Consumer connected
+[2025-12-29 00:42:10] [32minfo[39m: Database connected successfully
+[2025-12-29 00:42:11] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-29 00:42:11] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-29 00:42:11] [32minfo[39m: kafka connected
+[2025-12-29 00:42:11] [32minfo[39m: User Service Kafka Consumer connected
+[2025-12-29 00:42:19] [32minfo[39m: Database connected successfully
+[2025-12-29 00:42:19] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-29 00:42:19] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-29 00:42:19] [32minfo[39m: kafka connected
+[2025-12-29 00:42:19] [32minfo[39m: User Service Kafka Consumer connected
+[2025-12-29 00:42:29] [32minfo[39m: Database connected successfully
+[2025-12-29 00:42:29] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-29 00:42:29] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-29 00:42:29] [32minfo[39m: kafka connected
+[2025-12-29 00:42:29] [32minfo[39m: User Service Kafka Consumer connected
+[2025-12-29 00:42:32] [32minfo[39m: Database connected successfully
+[2025-12-29 00:42:32] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-29 00:42:32] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-29 00:42:32] [32minfo[39m: kafka connected
+[2025-12-29 00:42:32] [32minfo[39m: User Service Kafka Consumer connected
+[2025-12-29 00:42:38] [32minfo[39m: Database connected successfully
+[2025-12-29 00:42:38] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-29 00:42:38] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-29 00:42:38] [32minfo[39m: kafka connected
+[2025-12-29 00:42:38] [32minfo[39m: User Service Kafka Consumer connected
+[2025-12-29 00:42:39] [32minfo[39m: Database connected successfully
+[2025-12-29 00:42:39] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-29 00:42:39] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-29 00:42:39] [32minfo[39m: kafka connected
+[2025-12-29 00:42:39] [32minfo[39m: User Service Kafka Consumer connected
+[2025-12-29 00:42:41] [32minfo[39m: Database connected successfully
+[2025-12-29 00:42:41] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-29 00:42:41] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-29 00:42:41] [32minfo[39m: kafka connected
+[2025-12-29 00:42:41] [32minfo[39m: User Service Kafka Consumer connected
+[2025-12-29 00:42:47] [32minfo[39m: Database connected successfully
+[2025-12-29 00:42:47] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-29 00:42:47] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-29 00:42:47] [32minfo[39m: kafka connected
+[2025-12-29 00:42:47] [32minfo[39m: User Service Kafka Consumer connected
+[2025-12-29 00:42:54] [32minfo[39m: Database connected successfully
+[2025-12-29 00:42:54] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-29 00:42:54] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-29 00:42:54] [32minfo[39m: kafka connected
+[2025-12-29 00:42:54] [32minfo[39m: User Service Kafka Consumer connected
+[2025-12-29 00:42:57] [32minfo[39m: Database connected successfully
+[2025-12-29 00:42:57] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-29 00:42:57] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-29 00:42:57] [32minfo[39m: kafka connected
+[2025-12-29 00:42:57] [32minfo[39m: User Service Kafka Consumer connected
+[2025-12-29 00:42:59] [32minfo[39m: Database connected successfully
+[2025-12-29 00:42:59] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-29 00:42:59] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-29 00:42:59] [32minfo[39m: kafka connected
+[2025-12-29 00:42:59] [32minfo[39m: User Service Kafka Consumer connected
+[2025-12-29 00:43:07] [32minfo[39m: Database connected successfully
+[2025-12-29 00:43:07] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-29 00:43:07] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-29 00:43:07] [32minfo[39m: kafka connected
+[2025-12-29 00:43:07] [32minfo[39m: User Service Kafka Consumer connected
+[2025-12-29 00:43:25] [32minfo[39m: Database connected successfully
+[2025-12-29 00:43:25] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-29 00:43:25] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-29 00:43:25] [32minfo[39m: kafka connected
+[2025-12-29 00:43:25] [32minfo[39m: User Service Kafka Consumer connected
+[2025-12-29 00:43:27] [32minfo[39m: Database connected successfully
+[2025-12-29 00:43:27] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-29 00:43:27] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-29 00:43:27] [32minfo[39m: kafka connected
+[2025-12-29 00:43:27] [32minfo[39m: User Service Kafka Consumer connected
+[2025-12-29 00:43:30] [32minfo[39m: Database connected successfully
+[2025-12-29 00:43:30] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-29 00:43:30] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-29 00:43:30] [32minfo[39m: kafka connected
+[2025-12-29 00:43:30] [32minfo[39m: User Service Kafka Consumer connected
+[2025-12-29 00:43:34] [32minfo[39m: Database connected successfully
+[2025-12-29 00:43:34] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-29 00:43:34] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-29 00:43:34] [32minfo[39m: kafka connected
+[2025-12-29 00:43:34] [32minfo[39m: User Service Kafka Consumer connected
+[2025-12-29 00:44:08] [32minfo[39m: Auth Service is running on port 6060
+[2025-12-29 00:44:11] [32minfo[39m: Database connected successfully
+[2025-12-29 00:44:11] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-29 00:44:11] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-29 00:44:11] [32minfo[39m: kafka connected
+[2025-12-29 00:44:11] [32minfo[39m: User Service Kafka Consumer connected
+[2025-12-29 00:44:38] [32minfo[39m: Auth Service is running on port 6060
+[2025-12-29 00:44:50] [32minfo[39m: Database connected successfully
+[2025-12-29 00:44:50] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-29 00:44:50] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-29 00:44:50] [32minfo[39m: kafka connected
+[2025-12-29 00:44:50] [32minfo[39m: User Service Kafka Consumer connected
+[2025-12-29 00:45:41] [32minfo[39m: Database connected successfully
+[2025-12-29 00:45:41] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-29 00:45:41] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-29 00:45:41] [32minfo[39m: kafka connected
+[2025-12-29 00:45:41] [32minfo[39m: User Service Kafka Consumer connected
+[2025-12-29 00:45:44] [32minfo[39m: Database connected successfully
+[2025-12-29 00:45:44] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-29 00:45:44] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-29 00:45:44] [32minfo[39m: kafka connected
+[2025-12-29 00:45:44] [32minfo[39m: User Service Kafka Consumer connected
+[2025-12-29 00:46:00] [32minfo[39m: Database connected successfully
+[2025-12-29 00:46:00] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-29 00:46:00] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-29 00:46:00] [32minfo[39m: kafka connected
+[2025-12-29 00:46:00] [32minfo[39m: User Service Kafka Consumer connected
+[2025-12-29 00:46:08] [32minfo[39m: Database connected successfully
+[2025-12-29 00:46:08] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-29 00:46:08] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-29 00:46:08] [32minfo[39m: kafka connected
+[2025-12-29 00:46:08] [32minfo[39m: User Service Kafka Consumer connected
+[2025-12-29 00:46:10] [32minfo[39m: Database connected successfully
+[2025-12-29 00:46:10] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-29 00:46:10] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-29 00:46:10] [32minfo[39m: kafka connected
+[2025-12-29 00:46:10] [32minfo[39m: User Service Kafka Consumer connected
+[2025-12-29 00:46:14] [32minfo[39m: Database connected successfully
+[2025-12-29 00:46:14] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-29 00:46:14] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-29 00:46:14] [32minfo[39m: kafka connected
+[2025-12-29 00:46:14] [32minfo[39m: User Service Kafka Consumer connected
+[2025-12-29 00:46:22] [32minfo[39m: Database connected successfully
+[2025-12-29 00:46:22] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-29 00:46:22] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-29 00:46:22] [32minfo[39m: kafka connected
+[2025-12-29 00:46:22] [32minfo[39m: User Service Kafka Consumer connected
+[2025-12-29 00:46:23] [32minfo[39m: Database connected successfully
+[2025-12-29 00:46:23] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-29 00:46:23] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-29 00:46:23] [32minfo[39m: kafka connected
+[2025-12-29 00:46:23] [32minfo[39m: User Service Kafka Consumer connected
+[2025-12-29 00:46:38] [32minfo[39m: Database connected successfully
+[2025-12-29 00:46:38] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-29 00:46:38] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-29 00:46:38] [32minfo[39m: kafka connected
+[2025-12-29 00:46:38] [32minfo[39m: User Service Kafka Consumer connected
+[2025-12-29 00:47:08] [32minfo[39m: Auth Service is running on port 6060
+[2025-12-29 00:47:21] [32minfo[39m: Database connected successfully
+[2025-12-29 00:47:21] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-29 00:47:21] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-29 00:47:21] [32minfo[39m: kafka connected
+[2025-12-29 00:47:32] [32minfo[39m: Database connected successfully
+[2025-12-29 00:47:32] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-29 00:47:32] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-29 00:47:32] [32minfo[39m: kafka connected
+[2025-12-29 00:47:35] [32minfo[39m: Database connected successfully
+[2025-12-29 00:47:35] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-29 00:47:35] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-29 00:47:35] [32minfo[39m: kafka connected
+[2025-12-29 00:47:35] [32minfo[39m: Auth Service is running on port 6060
+[2025-12-29 00:48:32] [32minfo[39m: Database connected successfully
+[2025-12-29 00:48:32] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-29 00:48:32] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-29 00:48:32] [32minfo[39m: kafka connected
+[2025-12-29 00:48:32] [32minfo[39m: Auth Service is running on port 6060
+[2025-12-29 00:48:34] [32minfo[39m: Database connected successfully
+[2025-12-29 00:48:34] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-29 00:48:34] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-29 00:48:34] [32minfo[39m: kafka connected
+[2025-12-29 00:48:34] [32minfo[39m: Auth Service is running on port 6060
+[2025-12-29 00:48:36] [32minfo[39m: Database connected successfully
+[2025-12-29 00:48:36] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-29 00:48:36] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-29 00:48:36] [32minfo[39m: kafka connected
+[2025-12-29 00:48:36] [32minfo[39m: Auth Service is running on port 6060
+[2025-12-29 00:48:38] [32minfo[39m: Database connected successfully
+[2025-12-29 00:48:38] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-29 00:48:38] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-29 00:48:38] [32minfo[39m: kafka connected
+[2025-12-29 00:48:38] [32minfo[39m: Auth Service is running on port 6060
+[2025-12-29 00:48:42] [32minfo[39m: Database connected successfully
+[2025-12-29 00:48:42] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-29 00:48:42] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-29 00:48:42] [32minfo[39m: kafka connected
+[2025-12-29 00:48:42] [32minfo[39m: Auth Service is running on port 6060
+[2025-12-29 00:48:51] [32minfo[39m: Database connected successfully
+[2025-12-29 00:48:51] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-29 00:48:51] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-29 00:48:51] [32minfo[39m: kafka connected
+[2025-12-29 00:48:51] [32minfo[39m: Auth Service is running on port 6060
+[2025-12-29 00:48:58] [32minfo[39m: Database connected successfully
+[2025-12-29 00:48:58] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-29 00:48:58] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-29 00:48:58] [32minfo[39m: kafka connected
+[2025-12-29 00:48:58] [32minfo[39m: Auth Service is running on port 6060
+[2025-12-29 00:49:02] [32minfo[39m: Database connected successfully
+[2025-12-29 00:49:02] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-29 00:49:02] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-29 00:49:02] [32minfo[39m: kafka connected
+[2025-12-29 00:49:02] [32minfo[39m: Auth Service is running on port 6060
+[2025-12-29 00:49:13] [32minfo[39m: Database connected successfully
+[2025-12-29 00:49:13] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-29 00:49:13] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-29 00:49:13] [32minfo[39m: kafka connected
+[2025-12-29 00:49:13] [32minfo[39m: Auth Service is running on port 6060
+[2025-12-29 00:49:17] [32minfo[39m: Database connected successfully
+[2025-12-29 00:49:17] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-29 00:49:17] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-29 00:49:17] [32minfo[39m: kafka connected
+[2025-12-29 00:49:17] [32minfo[39m: Auth Service is running on port 6060
+[2025-12-29 00:49:32] [32minfo[39m: Database connected successfully
+[2025-12-29 00:49:32] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-29 00:49:32] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-29 00:49:32] [32minfo[39m: kafka connected
+[2025-12-29 00:49:32] [32minfo[39m: Auth Service is running on port 6060
+[2025-12-29 00:49:34] [32minfo[39m: Database connected successfully
+[2025-12-29 00:49:34] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-29 00:49:34] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-29 00:49:34] [32minfo[39m: kafka connected
+[2025-12-29 00:49:34] [32minfo[39m: Auth Service is running on port 6060
+[2025-12-29 00:49:36] [32minfo[39m: Database connected successfully
+[2025-12-29 00:49:36] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-29 00:49:36] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-29 00:49:36] [32minfo[39m: kafka connected
+[2025-12-29 00:49:36] [32minfo[39m: Auth Service is running on port 6060
+[2025-12-29 00:54:42] [32minfo[39m: Database connected successfully
+[2025-12-29 00:54:42] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-29 00:54:42] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-29 00:54:42] [32minfo[39m: kafka connected
+[2025-12-29 00:54:42] [32minfo[39m: Auth Service is running on port 6060
+[2025-12-29 00:54:54] [32minfo[39m: Database connected successfully
+[2025-12-29 00:54:54] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-29 00:54:54] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-29 00:54:54] [32minfo[39m: kafka connected
+[2025-12-29 00:54:56] [32minfo[39m: Database connected successfully
+[2025-12-29 00:54:56] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-29 00:54:56] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-29 00:54:56] [32minfo[39m: kafka connected
+[2025-12-29 00:55:01] [32minfo[39m: Database connected successfully
+[2025-12-29 00:55:01] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-29 00:55:01] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-29 00:55:01] [32minfo[39m: kafka connected
+[2025-12-29 00:55:01] [32minfo[39m: deleteUser Service Kafka Consumer connected
+[2025-12-29 00:55:01] [32minfo[39m: Auth Service is running on port 6060
+[2025-12-29 00:57:02] [32minfo[39m: USER_PROFILE_CREATED successfully 5
+[2025-12-29 00:58:29] [32minfo[39m: Database connected successfully
+[2025-12-29 00:58:29] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-29 00:58:29] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-29 00:58:29] [32minfo[39m: kafka connected
+[2025-12-29 00:58:29] [32minfo[39m: deleteUser Service Kafka Consumer connected
+[2025-12-29 00:58:31] [32minfo[39m: Database connected successfully
+[2025-12-29 00:58:31] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-29 00:58:31] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-29 00:58:31] [32minfo[39m: kafka connected
+[2025-12-29 00:58:31] [32minfo[39m: deleteUser Service Kafka Consumer connected
+[2025-12-29 00:58:33] [32minfo[39m: Database connected successfully
+[2025-12-29 00:58:33] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-29 00:58:33] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-29 00:58:33] [32minfo[39m: kafka connected
+[2025-12-29 00:58:33] [32minfo[39m: deleteUser Service Kafka Consumer connected
+[2025-12-29 00:58:35] [32minfo[39m: Database connected successfully
+[2025-12-29 00:58:35] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-29 00:58:35] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-29 00:58:35] [32minfo[39m: kafka connected
+[2025-12-29 00:58:35] [32minfo[39m: deleteUser Service Kafka Consumer connected
+[2025-12-29 00:58:37] [32minfo[39m: Database connected successfully
+[2025-12-29 00:58:37] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-29 00:58:37] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-29 00:58:37] [32minfo[39m: kafka connected
+[2025-12-29 00:58:37] [32minfo[39m: deleteUser Service Kafka Consumer connected
+[2025-12-29 00:58:41] [32minfo[39m: Database connected successfully
+[2025-12-29 00:58:41] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-29 00:58:41] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-29 00:58:41] [32minfo[39m: kafka connected
+[2025-12-29 00:58:41] [32minfo[39m: deleteUser Service Kafka Consumer connected
+[2025-12-29 00:58:43] [32minfo[39m: Database connected successfully
+[2025-12-29 00:58:43] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-29 00:58:43] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-29 00:58:43] [32minfo[39m: kafka connected
+[2025-12-29 00:58:43] [32minfo[39m: deleteUser Service Kafka Consumer connected
+[2025-12-29 00:58:45] [32minfo[39m: Database connected successfully
+[2025-12-29 00:58:45] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-29 00:58:45] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-29 00:58:45] [32minfo[39m: kafka connected
+[2025-12-29 00:58:45] [32minfo[39m: deleteUser Service Kafka Consumer connected
+[2025-12-29 00:59:27] [32minfo[39m: Auth Service is running on port 6060
+[2025-12-29 00:59:27] [32minfo[39m: USER_PROFILE_CREATED successfully 6
+[2025-12-29 01:00:18] [32minfo[39m: Database connected successfully
+[2025-12-29 01:00:18] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-29 01:00:18] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-29 01:00:18] [32minfo[39m: kafka connected
+[2025-12-29 01:00:18] [32minfo[39m: deleteUser Service Kafka Consumer connected
+[2025-12-29 01:00:23] [32minfo[39m: Database connected successfully
+[2025-12-29 01:00:23] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-29 01:00:23] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-29 01:00:23] [32minfo[39m: kafka connected
+[2025-12-29 01:00:23] [32minfo[39m: deleteUser Service Kafka Consumer connected
+[2025-12-29 01:00:37] [32minfo[39m: Auth Service is running on port 6060
+[2025-12-29 01:00:39] [32minfo[39m: Database connected successfully
+[2025-12-29 01:00:39] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-29 01:00:39] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-29 01:00:39] [32minfo[39m: kafka connected
+[2025-12-29 01:00:39] [32minfo[39m: deleteUser Service Kafka Consumer connected
+[2025-12-29 01:00:47] [32minfo[39m: Database connected successfully
+[2025-12-29 01:00:47] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-29 01:00:47] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-29 01:00:47] [32minfo[39m: kafka connected
+[2025-12-29 01:00:47] [32minfo[39m: deleteUser Service Kafka Consumer connected
+[2025-12-29 01:00:55] [32minfo[39m: Database connected successfully
+[2025-12-29 01:00:55] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-29 01:00:55] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-29 01:00:55] [32minfo[39m: kafka connected
+[2025-12-29 01:00:55] [32minfo[39m: deleteUser Service Kafka Consumer connected
+[2025-12-29 01:00:56] [32minfo[39m: Database connected successfully
+[2025-12-29 01:00:56] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-29 01:00:56] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-29 01:00:56] [32minfo[39m: kafka connected
+[2025-12-29 01:00:56] [32minfo[39m: deleteUser Service Kafka Consumer connected
+[2025-12-29 01:00:58] [32minfo[39m: Database connected successfully
+[2025-12-29 01:00:58] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-29 01:00:58] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-29 01:00:58] [32minfo[39m: kafka connected
+[2025-12-29 01:00:58] [32minfo[39m: deleteUser Service Kafka Consumer connected
+[2025-12-29 01:01:00] [32minfo[39m: Database connected successfully
+[2025-12-29 01:01:00] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-29 01:01:00] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-29 01:01:00] [32minfo[39m: kafka connected
+[2025-12-29 01:01:00] [32minfo[39m: deleteUser Service Kafka Consumer connected
+[2025-12-29 01:01:01] [32minfo[39m: Database connected successfully
+[2025-12-29 01:01:01] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-29 01:01:01] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-29 01:01:01] [32minfo[39m: kafka connected
+[2025-12-29 01:01:01] [32minfo[39m: deleteUser Service Kafka Consumer connected
+[2025-12-29 01:01:10] [32minfo[39m: Database connected successfully
+[2025-12-29 01:01:10] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-29 01:01:10] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-29 01:01:10] [32minfo[39m: kafka connected
+[2025-12-29 01:01:10] [32minfo[39m: deleteUser Service Kafka Consumer connected
+[2025-12-29 01:01:12] [32minfo[39m: Database connected successfully
+[2025-12-29 01:01:12] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-29 01:01:12] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-29 01:01:12] [32minfo[39m: kafka connected
+[2025-12-29 01:01:12] [32minfo[39m: deleteUser Service Kafka Consumer connected
+[2025-12-29 01:01:28] [32minfo[39m: Database connected successfully
+[2025-12-29 01:01:28] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-29 01:01:28] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-29 01:01:28] [32minfo[39m: kafka connected
+[2025-12-29 01:01:28] [32minfo[39m: deleteUser Service Kafka Consumer connected
+[2025-12-29 01:01:30] [32minfo[39m: Database connected successfully
+[2025-12-29 01:01:30] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-29 01:01:30] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-29 01:01:30] [32minfo[39m: kafka connected
+[2025-12-29 01:01:30] [32minfo[39m: deleteUser Service Kafka Consumer connected
+[2025-12-29 01:01:34] [32minfo[39m: Database connected successfully
+[2025-12-29 01:01:34] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-29 01:01:34] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-29 01:01:34] [32minfo[39m: kafka connected
+[2025-12-29 01:01:34] [32minfo[39m: deleteUser Service Kafka Consumer connected
+[2025-12-29 01:01:39] [32minfo[39m: Database connected successfully
+[2025-12-29 01:01:39] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-29 01:01:39] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-29 01:01:39] [32minfo[39m: kafka connected
+[2025-12-29 01:01:39] [32minfo[39m: deleteUser Service Kafka Consumer connected
+[2025-12-29 01:01:41] [32minfo[39m: Database connected successfully
+[2025-12-29 01:01:41] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-29 01:01:41] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-29 01:01:41] [32minfo[39m: kafka connected
+[2025-12-29 01:01:41] [32minfo[39m: deleteUser Service Kafka Consumer connected
+[2025-12-29 01:02:11] [32minfo[39m: Auth Service is running on port 6060
+[2025-12-29 01:03:43] [32minfo[39m: USER_PROFILE_CREATED successfully 7
+[2025-12-29 01:04:45] [32minfo[39m: USER_PROFILE_CREATED successfully 8
+[2025-12-30 00:08:51] [32minfo[39m: Database connected successfully
+[2025-12-30 00:08:51] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-30 00:08:51] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-30 00:08:51] [32minfo[39m: kafka connected
+[2025-12-30 00:08:52] [32minfo[39m: deleteUser Service Kafka Consumer connected
+[2025-12-30 00:08:52] [32minfo[39m: Auth Service is running on port 6060
+[2025-12-31 01:09:02] [32minfo[39m: Database connected successfully
+[2025-12-31 01:09:02] [32minfo[39m: Error creating session table: relation "session" already exists
+[2025-12-31 01:09:02] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2025-12-31 01:09:02] [32minfo[39m: kafka connected
+[2025-12-31 01:09:02] [32minfo[39m: deleteUser Service Kafka Consumer connected
+[2025-12-31 01:09:02] [32minfo[39m: Auth Service is running on port 6060
+[2026-01-01 15:45:18] [32minfo[39m: Database connected successfully
+[2026-01-01 15:45:18] [32minfo[39m: Error creating session table: relation "session" already exists
+[2026-01-01 15:45:18] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2026-01-01 15:45:18] [32minfo[39m: kafka connected
+[2026-01-01 15:45:18] [32minfo[39m: deleteUser Service Kafka Consumer connected
+[2026-01-01 15:45:18] [32minfo[39m: Auth Service is running on port 6060
+[2026-01-01 15:53:49] [32minfo[39m: Database connected successfully
+[2026-01-01 15:53:50] [32minfo[39m: Error creating session table: relation "session" already exists
+[2026-01-01 15:53:50] [32minfo[39m: Error creating userinfo table: syntax error at or near ")"
+[2026-01-01 15:53:50] [32minfo[39m: kafka connected
+[2026-01-01 15:53:50] [32minfo[39m: deleteUser Service Kafka Consumer connected
+[2026-01-01 15:53:52] [32minfo[39m: Database connected successfully
+[2026-01-01 15:53:52] [32minfo[39m: Error creating session table: relation "session" already exists
+[2026-01-01 15:53:52] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2026-01-01 15:53:52] [32minfo[39m: kafka connected
+[2026-01-01 15:53:52] [32minfo[39m: deleteUser Service Kafka Consumer connected
+[2026-01-01 15:53:56] [32minfo[39m: Database connected successfully
+[2026-01-01 15:53:56] [32minfo[39m: Error creating session table: relation "session" already exists
+[2026-01-01 15:53:56] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2026-01-01 15:53:56] [32minfo[39m: kafka connected
+[2026-01-01 15:53:56] [32minfo[39m: deleteUser Service Kafka Consumer connected
+[2026-01-01 15:53:58] [32minfo[39m: Database connected successfully
+[2026-01-01 15:53:58] [32minfo[39m: Error creating session table: relation "session" already exists
+[2026-01-01 15:53:58] [32minfo[39m: Error creating userinfo table: syntax error at or near "VARCHAR"
+[2026-01-01 15:53:58] [32minfo[39m: kafka connected
+[2026-01-01 15:53:58] [32minfo[39m: deleteUser Service Kafka Consumer connected
+[2026-01-01 15:54:00] [32minfo[39m: Database connected successfully
+[2026-01-01 15:54:00] [32minfo[39m: Error creating session table: relation "session" already exists
+[2026-01-01 15:54:00] [32minfo[39m: Error creating userinfo table: syntax error at or near "VARCHAR"
+[2026-01-01 15:54:00] [32minfo[39m: kafka connected
+[2026-01-01 15:54:00] [32minfo[39m: deleteUser Service Kafka Consumer connected
+[2026-01-01 15:54:05] [32minfo[39m: Database connected successfully
+[2026-01-01 15:54:05] [32minfo[39m: Error creating session table: relation "session" already exists
+[2026-01-01 15:54:05] [32minfo[39m: Error creating userinfo table: syntax error at or near ")"
+[2026-01-01 15:54:05] [32minfo[39m: kafka connected
+[2026-01-01 15:54:05] [32minfo[39m: deleteUser Service Kafka Consumer connected
+[2026-01-01 15:54:07] [32minfo[39m: Database connected successfully
+[2026-01-01 15:54:07] [32minfo[39m: Error creating session table: relation "session" already exists
+[2026-01-01 15:54:07] [32minfo[39m: Error creating userinfo table: syntax error at or near "location"
+[2026-01-01 15:54:07] [32minfo[39m: kafka connected
+[2026-01-01 15:54:07] [32minfo[39m: deleteUser Service Kafka Consumer connected
+[2026-01-01 15:54:08] [32minfo[39m: Database connected successfully
+[2026-01-01 15:54:08] [32minfo[39m: Error creating session table: relation "session" already exists
+[2026-01-01 15:54:08] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2026-01-01 15:54:08] [32minfo[39m: kafka connected
+[2026-01-01 15:54:08] [32minfo[39m: deleteUser Service Kafka Consumer connected
+[2026-01-01 15:54:49] [32minfo[39m: Auth Service is running on port 6060
+[2026-01-01 15:55:32] [32minfo[39m: Database connected successfully
+[2026-01-01 15:55:32] [32minfo[39m: Error creating session table: relation "session" already exists
+[2026-01-01 15:55:32] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2026-01-01 15:55:32] [32minfo[39m: kafka connected
+[2026-01-01 15:55:32] [32minfo[39m: deleteUser Service Kafka Consumer connected
+[2026-01-01 15:55:35] [32minfo[39m: Database connected successfully
+[2026-01-01 15:55:35] [32minfo[39m: Error creating session table: relation "session" already exists
+[2026-01-01 15:55:35] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2026-01-01 15:55:35] [32minfo[39m: kafka connected
+[2026-01-01 15:55:35] [32minfo[39m: deleteUser Service Kafka Consumer connected
+[2026-01-01 15:55:39] [32minfo[39m: Auth Service is running on port 6060
+[2026-01-01 15:55:51] [32minfo[39m: Database connected successfully
+[2026-01-01 15:55:51] [32minfo[39m: Error creating session table: relation "session" already exists
+[2026-01-01 15:55:51] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2026-01-01 15:55:51] [32minfo[39m: kafka connected
+[2026-01-01 15:55:51] [32minfo[39m: deleteUser Service Kafka Consumer connected
+[2026-01-01 15:56:04] [32minfo[39m: Database connected successfully
+[2026-01-01 15:56:04] [32minfo[39m: Error creating session table: relation "session" already exists
+[2026-01-01 15:56:04] [32minfo[39m: Error creating userinfo table: relation "userinfo" already exists
+[2026-01-01 15:56:04] [32minfo[39m: kafka connected
+[2026-01-01 15:56:04] [32minfo[39m: deleteUser Service Kafka Consumer connected

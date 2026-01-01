@@ -40,9 +40,10 @@ export class UserRepository {
     try {
       const query = `create table ${this.tableName} (
         id SERIAL PRIMARY KEY,
-        email VARCHAR(100),
+        email VARCHAR(100) UNIQUE NOT NULL,
         password VARCHAR(300),
         role VARCHAR(50),
+        catogery VARCHAR(100),
         location VARCHAR(200),
         isActive VARCHAR(45) DEFAULT TRUE,
         createdAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
@@ -125,6 +126,13 @@ export class UserRepository {
     await this.pool.query(query, [sessionId]);
   }
 
+  async deleteUser(id: number): Promise<boolean> {
+    const query = `DELETE FROM ${this.tableName} WHERE id = $1;`;
+    const result = await this.pool.query(query, [id]);
+    console.log("resulkt",result);
+    
+    return result.rowCount > 0;
+  }
 
 
 

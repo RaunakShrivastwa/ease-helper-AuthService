@@ -25,7 +25,7 @@ class userController {
       req.body.password = await passwordHasing.hashPassword(req.body.password);
       let authUser = new AuthUser(req.body.email,req.body.role,req.body.password,req.body.location);
       let newUser = await userService.createAuth(authUser);
-      await publishUserAuthCreated({id:newUser.id,email:newUser.email,role:newUser.role});
+      await publishUserAuthCreated({id:newUser.id,email:newUser.email,role:newUser.role,location:newUser.location});
       res.status(201).json(newUser);
     }catch(err){
       return res.status(500).json({ message: `Internal Server Error ${err}` });
@@ -44,8 +44,8 @@ class userController {
     }
 
     try {
-      let user = await userService.findByEmail(req.body.email, res);
-      console.log(user);
+      let user:any = await userService.findByEmail(req.body.email, res);
+
       
       if (!user || !(await passwordHasing.comparePassword(req.body.password, user.password))) {
         return res.status(404).json({ message: "Invalid Email or Password" });
@@ -55,6 +55,7 @@ class userController {
         sub: user.id,
         role: user.role,
         tv: crypto.randomUUID(),
+        location:user.location
       };
 
       const accessToken = await jwtHelper.signAccessToken(payload);
@@ -179,6 +180,17 @@ class userController {
       return res.status(500).json({ message: `Internal Server Error ${err}` });
     }
 
+  }
+
+  async deleteUser(id:number){
+      try{
+         let flag = await userService.deleteUserInfo(id);
+         console.log(flag);
+         
+      }catch(err){
+        console.log(err);
+        
+      }
   }
 
 }
